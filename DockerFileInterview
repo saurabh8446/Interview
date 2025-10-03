@@ -1,4 +1,4 @@
 FROM ubuntu
-RUN apt update -y && apt install ngnix -y
+RUN apt update -y && apt install nginx -y
 EXPOSE 80
-CMD ["ngnix","-g","deamon off"]
+CMD ["nginx","-g","deamon off"]
